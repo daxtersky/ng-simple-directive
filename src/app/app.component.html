@@ -1,4 +1,15 @@
 <hello name="{{ name }}"></hello>
-<p appHighlight>
-  Text with used 'appHighlight' directive
-</p>
+
+<p [appFontColor]="'green'">Text with used 'appHighlight' directive</p>
+<p [appFontColor]>Text with used 'appHighlight' directive</p>
+<p [appFontColor]="'red'">Text with used 'appHighlight' directive</p>
+<p [appFontColor]="'blue'">Text with used 'appHighlight' directive</p>
+
+<br>
+
+<p [appHighlight]="'goldenrod'">Hover me to see magic</p>
+<p [appHighlight]>Hover me to see magic</p>
+
+<br>
+<p class="trunc-elem" [uaShowHint]>Show tooltip of truncated text only!</p>
+<p class="trunc-elem" [uaShowHint]>Show tooltip of</p>
