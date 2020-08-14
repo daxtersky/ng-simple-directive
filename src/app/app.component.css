@@ -4,7 +4,6 @@ p {
 
 .trunc-elem {
   cursor: default;
-  width: 170px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
