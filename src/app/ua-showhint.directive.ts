@@ -4,6 +4,8 @@ import { Directive, ElementRef, Input, HostListener, Renderer2 } from '@angular/
   selector: '[uaShowHint]'
 })
 export class UaShowHintDirective {
+  @Input() uaShowHint: string;
+
   constructor(private elem: ElementRef, private renderer: Renderer2) { }
 
   @HostListener('mouseenter') onMouseEnter() {
